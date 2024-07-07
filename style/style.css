@@ -402,3 +402,73 @@
     height: 450px;
 }
 /* subscribe section style****************** */
+.subscribe{
+    height: 616px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe .subscribe-content{
+    width: 896px;
+    height: 336px;
+    text-align: center;
+}
+.subscribe .subscribe-content img{
+    width: 131px;
+    height: 137px;
+    margin-bottom: 40px;
+}
+.subscribe .subscribe-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.subscribe .subscribe-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.subscribe .input-btn-container{
+    
+    width: 648px;
+    height: 72px;
+    margin-top: 48px;
+}
+.subscribe .input-btn-container input[type=email]{
+    width: 418px;
+    height: 72px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgb(227, 233, 238);
+    padding-left: 10px;
+   
+    
+}
+.subscribe .input-btn-container button{
+    width: 210px;
+    height: 72px;
+    background: red;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
