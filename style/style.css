@@ -473,3 +473,64 @@
     cursor: pointer;
 }
 /* footer section style****************** */
+footer{
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 120px auto;
+}
+.footer-container{
+    height: 609px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-container .footer-content{
+    width: 1185px;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); 
+    display: flex; 
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer-container .footer-content p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-container .footer-icon{
+    width: 1185px;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 50px;
+}
+.footer-container .footer-icon img{
+    width: 64px;
+    height: 64px;    
+}
+.footer-container .footer-rights{
+    width: 1185px;
+    height: 80px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: end;   
+    position: relative;  
+}
+.footer-container .footer-rights p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;   
+}
+.footer-container .footer-rights .unsubscribe-btn{
+    position: absolute;
+    left: 1165px;
+}
